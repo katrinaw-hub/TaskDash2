@@ -19,7 +19,6 @@ router
 // Read / Update / Delete single task
 router
   .route('/:taskId')
-  .get(authCtrl.canAccessTask, taskCtrl.read)
   .put(authCtrl.canAccessTask, taskCtrl.update)
   .delete(authCtrl.hasRole('admin', 'manager'), taskCtrl.remove)
 

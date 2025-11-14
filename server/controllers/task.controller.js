@@ -50,11 +50,6 @@ const taskByID = async (req, res, next, id) => {
   }
 }
 
-// READ
-const read = (req, res) => {
-  return res.json(req.task)
-}
-
 // UPDATE
 const update = async (req, res) => {
   try {
@@ -83,7 +78,6 @@ export default {
   create,
   list,
   taskByID,
-  read,
   update,
   remove
 }

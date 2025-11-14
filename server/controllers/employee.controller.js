@@ -40,11 +40,6 @@ const employeeByID = async (req, res, next, id) => {
   }
 }
 
-// READ
-const read = (req, res) => {
-  return res.json(req.employee)
-}
-
 // UPDATE
 const update = async (req, res) => {
   try {
@@ -77,7 +72,6 @@ export default {
   create,
   list,
   employeeByID,
-  read,
   update,
   remove
 }

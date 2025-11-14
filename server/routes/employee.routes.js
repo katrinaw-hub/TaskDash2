@@ -19,7 +19,6 @@ router
 // Read, update, delete single employee
 router
   .route('/:employeeId')
-  .get(authCtrl.hasAuthorization, employeeCtrl.read)
   .put(authCtrl.hasAuthorization, employeeCtrl.update)
   .delete(authCtrl.hasRole('admin'), employeeCtrl.remove)
 

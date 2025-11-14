@@ -26,3 +26,11 @@ SIGNIN:
 Some sample data will be available in the `mongo/` directory to import into your `tasksdash` DB. Please note the typo, but it is too late to change as that is what is on every one's end.
 
 Thank you.
+
+# Object IDs for Sample Accounts
+
+To set task assigners/assignees:
+
+Admin: 6917919fafe03f455106734c
+Manager: 6917aa90c2a32ef3517e7dbe
+Employee: 6917aacfc2a32ef3517e7dc0

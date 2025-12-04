@@ -45,6 +45,9 @@ const theme = createTheme({
       styleOverrides: {
         root: {
           borderRadius: 16,
+          margin: 8,
+          padding: 4,
+          maxWidth: "99vw"
         },
       },
     },

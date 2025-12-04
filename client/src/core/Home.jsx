@@ -54,7 +54,6 @@ export default function Home() {
         }}
       >
         <Container maxWidth="lg">
-          {/* Row: text left, image right */}
           <Box
             sx={{
               display: "flex",
@@ -64,7 +63,6 @@ export default function Home() {
               flexWrap: "nowrap",
             }}
           >
-            {/* Left: Text + Buttons */}
             <Box sx={{ flex: 1, minWidth: 0 }}>
               <Typography variant="h1" fontWeight={800} color="#FF9800" gutterBottom>
                 TaskDash
@@ -122,12 +120,11 @@ export default function Home() {
               </Box>
             </Box>
 
-            {/* Right: Image 1 (independent sizing) */}
             <Box
               sx={{
                 flex: "0 0 auto",
-                width: 380,     // adjust width here
-                height: 380,    // adjust height here
+                width: 380,     
+                height: 380,    
               }}
             >
               <img
@@ -160,12 +157,12 @@ export default function Home() {
               flexWrap: "nowrap",
             }}
           >
-            {/* Left: Image 2 (independent sizing) */}
+            
             <Box
               sx={{
                 flex: "0 0 auto",
-                width: 150,    // adjust width here
-                height: 200,   // adjust height here
+                width: 150,    
+                height: 200,   
               }}
             >
               <img

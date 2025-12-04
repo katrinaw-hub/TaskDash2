@@ -20,7 +20,11 @@
   },
   "devDependencies": {
     "jest": "^29.0.0",
+<<<<<<< HEAD
     "nodemon": "^3.1.11",
+=======
+    "nodemon": "^3.0.0",
+>>>>>>> 59de4c67323121a85a22656d5004e9152ff48a82
     "supertest": "^6.3.0"
   }
 }

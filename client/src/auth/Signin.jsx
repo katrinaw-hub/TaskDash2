@@ -82,10 +82,14 @@ export default function Signin() {
           )}
           <Typography variant="body2" sx={{ mt: 2 }}>
             Don&apos;t have an account?{" "}
+<<<<<<< HEAD
             <Link to="/signup"
             style={{ color: "#1976d2", fontWeight: "bold" }}
             Sign up></Link>
 
+=======
+            <Link to="/signup">Sign up</Link>
+>>>>>>> 59de4c67323121a85a22656d5004e9152ff48a82
           </Typography>
         </CardContent>
         <CardActions sx={{ justifyContent: "center", mb: 2 }}>

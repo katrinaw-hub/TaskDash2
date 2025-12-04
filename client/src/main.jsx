@@ -8,7 +8,7 @@ import {
 } from "@mui/material";
 import MainRouter from "./MainRouter.jsx";
 
-// Custom theme using your logo colors
+
 const theme = createTheme({
   palette: {
     mode: "dark",
